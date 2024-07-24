@@ -40,17 +40,17 @@ Basic Project Folder Structure------- <br/>
 Project-name <br/>
 | <br/>
 |----Project-name <br/>
-|    | <br/>
-|    |---__init__.py <br/>
-|    | <br/>
-|    |---asgi.py <br/>
-|    |
-|    |---settings.py <br/>
-|    | <br/>
-|    |---urls.py <br/>
-|    | <br/>
-|    |---wsgi.py <br/>
-|    <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---asgi.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---settings.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---urls.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---wsgi.py <br/>
+|<br/>
 |----manage.py <br/>
 
 
@@ -60,35 +60,35 @@ Folder structure after starting your application ---------- <br/>
 Project-name <br/>
 | <br/>
 |----Project-name <br/>
-|    | <br/>
-|    |---__init__.py <br/>
-|    | <br/>
-|    |---asgi.py <br/>
-|    |
-|    |---settings.py <br/>
-|    | <br/>
-|    |---urls.py <br/>
-|    | <br/>
-|    |---wsgi.py <br/>
-|    <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---asgi.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---settings.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---urls.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---wsgi.py <br/>
+|<br/>
 |----manage.py <br/>
 |---db.sqlite3 <br/>
 | <br/>
 |----myapp <br/>
-|    |---migrations <br/>
-|    |    |---__init__.py <br/>
-|    | <br/>
-|    |---__init__.py <br/>
-|    | <br/>
-|    |---admin.py <br/>
-|    | <br/>
-|    |---apps.py <br/>
-|    | <br/>
-|    |---models.py <br/>
-|    | <br/>
-|    |---tests.py <br/>
-|    | <br/>
-|    |---views.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---migrations <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---admin.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---apps.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---models.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---tests.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---views.py <br/>
 
 
 
