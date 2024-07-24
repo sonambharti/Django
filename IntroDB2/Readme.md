@@ -16,9 +16,6 @@ To run the project: <br/>
 `python manage.py runserver` <br/>
 
 
-
-
-
 ## Folder Structure
 
 
@@ -121,7 +118,7 @@ Steps to develop your first basic Django project:
 
 6. Go to your terminal and run the following command to migrate DB: <br/> ` python manage.py makemigrations -n <db changes description>`.<br/> Eg: ` python manage.py makemigrations -n Added_Location_Table`.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;###Output: <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;### Output: <br/>
      
      (django_project_env) sonambharti@sonambharti IntroDB2 % python manage.py makemigrations -n Added_Location_Table 
      Migrations for 'DBapp': 
