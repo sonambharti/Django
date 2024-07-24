@@ -90,12 +90,12 @@ we need to create one use. Steps to create a Django super user: <br/>
 #### Step 2: Then create super user <br/>
  `python manage.py createsuperuser` <br/>
 
-`
-    Username (leave blank to use 'sonambharti'): admin <br/>
-    Email address: admin@gmail.com <br/>
-    Password: admin@321 <br/>
-    Password (again): admin@321 <br/>
-`
+
+    Username (leave blank to use 'sonambharti'): admin 
+    Email address: admin@gmail.com 
+    Password: admin@321 
+    Password (again): admin@321 
+
 
 
 Note: <br/>
@@ -121,13 +121,13 @@ Steps to develop your first basic Django project:
 
 6. Go to your terminal and run the following command to migrate DB: <br/> ` python manage.py makemigrations -n <db changes description>`.<br/> Eg: ` python manage.py makemigrations -n Added_Location_Table`.
 
-###Output: <br/>
-`
-(django_project_env) sonambharti@sonambharti IntroDB2 % python manage.py makemigrations -n Added_Location_Table <br/>
-Migrations for 'DBapp': <br/>
-  DBapp/migrations/0001_Added_Location_Table.py <br/>
-    - Create model Location <br/>
-`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;###Output: <br/>
+     
+     (django_project_env) sonambharti@sonambharti IntroDB2 % python manage.py makemigrations -n Added_Location_Table 
+     Migrations for 'DBapp': 
+       DBapp/migrations/0001_Added_Location_Table.py 
+         - Create model Location 
+     
 
 7. Now, run migrate command: `python manage.py migrate`
 8. Now, run the server: `python manage.py runserver`
