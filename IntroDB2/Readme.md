@@ -24,7 +24,7 @@ To run the project: <br/>
 
 Folder structure after starting your application ---------- <br/>
 
-Project-name
+Project-name <br/>
 |----DBapp <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---migrations <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
