@@ -133,10 +133,10 @@ Step 1: We need to migrate the project <br/>
 Step 2: Then create super user <br/>
  `python manage.py createsuperuser` <br/>
 
-    Username (leave blank to use 'sonambharti'): admin <br/>
-    Email address: admin@gmail.com <br/>
-    Password: admin@321 <br/>
-    Password (again): admin@321 <br/>
+    Username (leave blank to use 'sonambharti'): admin 
+    Email address: admin@gmail.com 
+    Password: admin@321 
+    Password (again): admin@321 
 
 
 Note: <br/>
