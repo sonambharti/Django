@@ -91,10 +91,10 @@ we need to create one use. Steps to create a Django super user: <br/>
  `python manage.py createsuperuser` <br/>
 
 `
-    Username (leave blank to use 'sonambharti'): admin
-    Email address: admin@gmail.com
-    Password: admin@321
-    Password (again): admin@321
+    Username (leave blank to use 'sonambharti'): admin <br/>
+    Email address: admin@gmail.com <br/>
+    Password: admin@321 <br/>
+    Password (again): admin@321 <br/>
 `
 
 
@@ -123,10 +123,10 @@ Steps to develop your first basic Django project:
 
 ###Output: <br/>
 `
-(django_project_env) sonambharti@sonambharti IntroDB2 % python manage.py makemigrations -n Added_Location_Table
-Migrations for 'DBapp':
-  DBapp/migrations/0001_Added_Location_Table.py
-    - Create model Location
+(django_project_env) sonambharti@sonambharti IntroDB2 % python manage.py makemigrations -n Added_Location_Table <br/>
+Migrations for 'DBapp': <br/>
+  DBapp/migrations/0001_Added_Location_Table.py <br/>
+    - Create model Location <br/>
 `
 
 7. Now, run migrate command: `python manage.py migrate`
