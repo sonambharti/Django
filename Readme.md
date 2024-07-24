@@ -44,7 +44,7 @@ Project-name <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---asgi.py <br/>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---settings.py <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---urls.py <br/>
@@ -64,7 +64,7 @@ Project-name <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---asgi.py <br/>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---settings.py <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---urls.py <br/>
