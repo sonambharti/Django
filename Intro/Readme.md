@@ -1,81 +1,80 @@
 # Introduction to Django First Project
 
-To activate conda env
-`conda activate <env-name>`
-`conda activate django_project_env`
+To activate conda env <br/>
+`conda activate django_project_env` <br/>
 
-To start a new Django project:
-`django-admin startproject Intro`
+To start a new Django project: <br/>
+`django-admin startproject Intro` <br/>
 
-To start a new Django application:
-`python manage.py startapp myfirstapp`
+To start a new Django application:  <br/>
+`python manage.py startapp myfirstapp` <br/>
 
-To run the project:
-`python manage.py runserver`
+To run the project: <br/>
+`python manage.py runserver` <br/>
+
 
 
 ## Folder Structure
 
-Basic Project Folder Structure-------
+Basic Project Folder Structure------- <br/>
 
-Project-name
-|
-|----Project-name
-|    |
-|    |---__init__.py
-|    |
-|    |---asgi.py
-|    |
-|    |---settings.py
-|    |
-|    |---urls.py
-|    |
-|    |---wsgi.py
-|    
-|----manage.py
+Project-name <br/>
+| <br/>
+|----Project-name <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---asgi.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---settings.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---urls.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---wsgi.py <br/>
+|<br/>
+|----manage.py <br/>
 
 
 
-Folder structure after starting your application ----------
+Folder structure after starting your application ---------- <br/>
 
-Project-name
-|
-|----Project-name
-|    |
-|    |---__init__.py
-|    |
-|    |---asgi.py
-|    |
-|    |---settings.py
-|    |
-|    |---urls.py
-|    |
-|    |---wsgi.py
-|   
-|---db.sqlite3 
-|----manage.py
-|
-|----myapp
-|    |---migrations
-|    |    |---__init__.py
-|    |
-|    |---__init__.py
-|    |
-|    |---admin.py
-|    |
-|    |---apps.py
-|    |
-|    |---models.py
-|    |
-|    |---tests.py
-|    |
-|    |---views.py
-
+Project-name <br/>
+| <br/>
+|----Project-name <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---asgi.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---settings.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---urls.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---wsgi.py <br/>
+|<br/>
+|----manage.py <br/>
+|---db.sqlite3 <br/>
+| <br/>
+|----myfirstapp <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---migrations <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---__init__.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---admin.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---apps.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---models.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---tests.py <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| <br/>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---views.py <br/>
 
 
 
 ### manage.py
-It is used to run management commands related to our project.
+It is used to run management commands related to our project. <br/>
 We will use to run the development server, create migrations and much more.
 
 ### settings.py
@@ -88,7 +87,7 @@ This file contains all the project's URL mappings.
 This file handles the request/response cycle of our Web Application.
 
 ## models.py
-In this file, we define the entities i.e. database tables of our Web Application.
+In this file, we define the entities i.e. database tables of our Web Application. <br/>
 
 Steps to develop your first basic Django project:
 
