@@ -119,9 +119,9 @@ Steps to develop your first basic Django project:
 
 5. Save your project.
 
-6. Go to your terminal and run the following command to migrate DB: ` python manage.py makemigrations -n <db changes description>`. Eg: ` python manage.py makemigrations -n Added_Location_Table`.
+6. Go to your terminal and run the following command to migrate DB: <br/> ` python manage.py makemigrations -n <db changes description>`.<br/> Eg: ` python manage.py makemigrations -n Added_Location_Table`.
 
-###Output:
+###Output: <br/>
 `
 (django_project_env) sonambharti@sonambharti IntroDB2 % python manage.py makemigrations -n Added_Location_Table
 Migrations for 'DBapp':
