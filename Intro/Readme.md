@@ -89,7 +89,7 @@ This file handles the request/response cycle of our Web Application.
 ## models.py
 In this file, we define the entities i.e. database tables of our Web Application. <br/>
 
-Steps to develop your first basic Django project:
+## Steps to develop your first basic Django project:
 
 1. Go to **myfirstapp/views.py** and do these changes/additions as follows.
     - Import **HTTPResponse** from **django.http**
