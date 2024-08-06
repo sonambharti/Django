@@ -4,3 +4,4 @@ psycopg2
 pytz
 sqlparse
 djangorestframework
+django-cors-headers
