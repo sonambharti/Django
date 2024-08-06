@@ -176,12 +176,10 @@ Also, we can use  `Postman` for the same. Here are some examples to `Create`, `G
                 "last_name": "Sharma",
                 "dob": "1996-11-20"
             }
-    <br/>
-    OR,
-    <br/>
-     - URL: http://127.0.0.1:8000/student/203/
-     - Method: PATCH
-     - Body: raw/json
+    <br/> OR, <br/>
+     - URL: http://127.0.0.1:8000/student/203/ <br/>
+     - Method: PATCH <br/>
+     - Body: raw/json <br/>
      - Data: {
                  "last_name": "Sharma"
              }
