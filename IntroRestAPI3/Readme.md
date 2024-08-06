@@ -179,12 +179,12 @@ Also, we can use  `Postman` for the same. Here are some examples to `Create`, `G
     <br/>
     OR,
     <br/>
-    - URL: http://127.0.0.1:8000/student/203/
-    - Method: PATCH
-    - Body: raw/json
-    - Data: {
-                "last_name": "Sharma"
-            }
+     - URL: http://127.0.0.1:8000/student/203/
+     - Method: PATCH
+     - Body: raw/json
+     - Data: {
+                 "last_name": "Sharma"
+             }
 
 4. DELETE
     - URL: http://127.0.0.1:8000/student/203/
